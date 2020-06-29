@@ -1,0 +1,81 @@
+[LBP]
+LBMCVersion=0.99.112
+LBPVersion=3
+[Options]
+ModName=CNC-DDraw
+ModAuthor=Efreak
+ModVersion=1.3.5.0
+ModVersionBox=0
+ModDateBox=1
+ModDateYear=2020
+ModDateMonth=06
+ModDateDay=28
+ModDescription=GDI, OpenGL and Direct3D 9 re-implementation of the DirectDraw API for classic games for better compatibility with Windows XP, Vista, 7, 8, 10 and Wine. Packaged by Efreak.
+ModCampaigns=Broken Campaigns
+ModType=3
+ModScrnFormat=SCRN%04d.pcx
+ModSnapFormat=Map%04d.yrm
+IsForRA2=0
+ShutdownLB=0
+PluginID=cnc-ddraw
+TXOpt=0
+FA2Opt=0
+Params=0
+GameMode=1
+MapIndex=0
+[Files]
+0=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\bilinear.glsl
+1=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\bright.glsl
+2=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\crt-lottes-fast.glsl
+3=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\cnc-ddraw.readme.txt
+4=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\cubic.glsl
+5=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\scanline.glsl
+6=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\ddraw.dll
+7=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\ddraw.ini
+8=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\xbr-lv2.glsl
+9=J:\Games\C&C\RA2 LaunchBase ModManager\Mods\creating - cnc-ddraw\Shaders\xbrz-freescale.glsl
+MixEncrypt=0
+Side3Mix=0
+UseAres=False
+[FileNodeIDs]
+0=Node0
+1=Node0
+2=Node0
+3=Node0
+4=Node0
+5=Node0
+6=Node0
+7=Node0
+8=Node0
+9=Node0
+[Installer]
+WindowIcon=1
+OldSaves=0
+ResetGameConfig=0
+CRC=1
+Instdir=cnc-ddraw
+DSP=1
+ShowInfoPage=2
+InfoPageTitle=Information
+InfoPageButton=Information
+ShowInstDetails=1
+AutoClose=1
+XPStyle=0
+TextColour0=00
+BGColour0=FF
+TextColour1=00
+BGColour1=FF
+TextColour2=00
+BGColour2=FF
+[InfoPageText]
+LastLine=1
+0=CnC-DDraw is a GDI, OpenGL and Direct3D 9 re-implementation of the DirectDraw API for classic games for better compatibility with Windows XP, Vista, 7, 8, 10 and Wine$\n$\nFor support, visit https://github.com/CnCNet/cnc-ddraw$\n$\nThe only special thing
+1=about this version is that the included glsl shaders aren't in a Shaders directory
+[Compression]
+CompressionMethod=3
+Solid=1
+GenPat=1
+FLAC=1
+PatchMinSize=16
+PatchBlockSize=2
+UpdateOnly=0
